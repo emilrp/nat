@@ -1,0 +1,104 @@
+body {
+	background-image: url(image/b.jpg);
+	background-repeat: repeat 0 0;
+	background-color: white;
+	font-family: arial, sans-serif;
+	background-position:top;
+	background-attachment: fixed;
+	font-size: .7em;
+	color: #333;
+	padding: 0;
+	margin: 0;
+	display:scroll;
+}
+table {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	border:thin;
+	background-color:#FFF;
+}
+table th {
+	font-family:"Monotype Corsiva";
+	font-size:14px;
+	background-color:#0CF;
+}
+.input{
+	-moz-border-radius:1px;
+	-khtml-border-radius:1px;
+	-webkit-border-radius:1px;
+	font-size:12px;
+	background-color: #ffffff;
+	border:0pt;
+	padding:1px;
+}
+input {
+	padding: 5px 5px; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400; 
+	font-size: 12px; 
+	color: #000; 
+	background:#BBCDF7;
+	border: 1px solid #FFF; 
+	border-radius: 5px; 
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.40); 
+}
+input:focus { 
+	background: #FFFFCC; 
+	color: #414848; 
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25); 
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); 
+	outline:0; 
+} 
+input:hover   {   
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 10); 
+	background: #FFFF99; 
+	color: #414848;
+} 
+input::-moz-placeholder {
+	color: #0066FF;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	color: #0066FF;
+}
+.combo {
+	padding: 5px 5px; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400; 
+	font-size: 14px; 
+	color: #000; 
+	text-shadow: 1px 0px 0 rgba(256, 256, 256, 256); 
+	border: 1px solid #FFF; 
+	border-radius: 5px; 
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.40); 
+}
+textarea {
+	padding: 5px 5px; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400; 
+	font-size: 14px; 
+	color: #000; 
+	background: #FFFFCC; 
+	border: 1px solid #FFF; 
+	border-radius: 5px; 
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.40); 
+}
+textarea:focus { 
+	background: #FFFFCC; 
+	color: #414848; 
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25); 
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); 
+	outline:0; 
+} 
+textarea:hover   {   
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 10); 
+	background: #FFFF99; 
+	color: #414848;
+} 
+textarea::-moz-placeholder {
+	color: #0066FF;
+}
+textarea:-moz-placeholder {   /* Older versions of Firefox */
+	color: #0066FF;
+}
